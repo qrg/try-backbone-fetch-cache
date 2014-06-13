@@ -1,0 +1,27 @@
+.starter-template.container
+  .page-header
+    h1 Try backbone-fetch-cache with Chaplin
+    p.text-muted
+      a(href='https://github.com/qrg-sandbox/try-backbone-fetch-cache', target='_blank') qrg-sandbox
+
+  form.form-horizontal(role='form')
+    .form-group
+      .col-xs-6
+        input.form-control.js-attr1Input(type='text', placeholder='Attribute 1')
+      .col-xs-6
+        input.form-control.js-attr2Input(type='text', placeholder='Attribute 2')
+    p
+      .btn-group.btn-group-justified
+        .btn-group
+          button.btn.btn-info.btn-lg.js-write(type='button')
+            | Write
+        .btn-group
+          button.btn.btn-default.btn-lg.js-clear(type='button')
+            | Clear
+
+  .alert.alert-danger.fade.in.hidden
+    button.close.js-hideAlert(type='button', aria-hidden='true') ×
+    p
+      | Attribute 1 and 2 is emply. Input something in both.
+
+  .js-items-view-container

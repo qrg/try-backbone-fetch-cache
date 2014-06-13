@@ -1,0 +1,75 @@
+{
+  "name": "try-backbone-fetch-cache",
+  "version": "0.0.0",
+  "homepage": "https://github.com/qrg-sandbox/try-backbone-fetch-cache",
+  "authors": [
+    "qurage <qualle.rhythmus+d@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "backbone": "~1.1.2",
+    "modernizr": "~2.8.2",
+    "chaplin": "~1.0.0",
+    "backbone.stickit": "~0.8.0",
+    "console-polyfill": "~0.1.1",
+    "h5bp-helpers": "~0.1.0",
+    "lodash": "~2.4.1",
+    "bootstrap-sass-official": "~3.1.1",
+    "backbone-fetch-cache": "~1.4.0"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "modernizr.js"
+    },
+    "lodash": {
+      "main": [
+        "dist/lodash.js"
+      ]
+    },
+    "backbone": {
+      "dependencies": {
+        "lodash": "~2.4.1",
+        "jquery": "~2.1.1"
+      }
+    },
+    "backbone.stickit": {
+      "dependencies": {
+        "backbone": "~1.1.2"
+      },
+      "main": "backbone.stickit.js"
+    },
+    "backbone-fetch-cache": {
+      "main": "backbone.fetch-cache.js"
+    },
+    "bootstrap-sass-official": {
+      "main": [
+        "vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot",
+        "vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.svg",
+        "vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf",
+        "vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.woff",
+        "vendor/assets/javascripts/bootstrap/affix.js",
+        "vendor/assets/javascripts/bootstrap/alert.js",
+        "vendor/assets/javascripts/bootstrap/button.js",
+        "vendor/assets/javascripts/bootstrap/carousel.js",
+        "vendor/assets/javascripts/bootstrap/collapse.js",
+        "vendor/assets/javascripts/bootstrap/dropdown.js",
+        "vendor/assets/javascripts/bootstrap/tab.js",
+        "vendor/assets/javascripts/bootstrap/transition.js",
+        "vendor/assets/javascripts/bootstrap/scrollspy.js",
+        "vendor/assets/javascripts/bootstrap/modal.js",
+        "vendor/assets/javascripts/bootstrap/tooltip.js",
+        "vendor/assets/javascripts/bootstrap/popover.js"
+      ]
+    }
+  },
+  "devDependencies": {}
+}
